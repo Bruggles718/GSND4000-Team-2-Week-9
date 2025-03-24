@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: 74e09ca5dadf5f54487585715c85864f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8672731048668394837
+    second: BloodSugarMeter_0
+  - first:
+      213: 2852463680904813147
+    second: BloodSugarMeter_1
+  - first:
+      213: 6781254392510816
+    second: BloodSugarMeter_2
+  - first:
+      213: -6954734155636579433
+    second: BloodSugarMeter_3
+  - first:
+      213: -404223464264533359
+    second: BloodSugarMeter_4
+  - first:
+      213: -2613634165156671578
+    second: BloodSugarMeter_5
+  - first:
+      213: 5825402515091048066
+    second: BloodSugarMeter_6
+  - first:
+      213: 6870430940950587055
+    second: BloodSugarMeter_7
+  - first:
+      213: 1473159987275554208
+    second: BloodSugarMeter_8
+  - first:
+      213: 6346871240136124086
+    second: BloodSugarMeter_9
+  - first:
+      213: 8411432712626928393
+    second: BloodSugarMeter_10
+  - first:
+      213: -6560133525238363600
+    second: BloodSugarMeter_11
+  - first:
+      213: -843106667331217187
+    second: BloodSugarMeter_12
+  - first:
+      213: 2909029991396774972
+    second: BloodSugarMeter_13
+  - first:
+      213: -4627649952305184829
+    second: BloodSugarMeter_14
+  - first:
+      213: 9181712652493229371
+    second: BloodSugarMeter_15
+  - first:
+      213: -4624889967755156286
+    second: BloodSugarMeter_16
+  - first:
+      213: -81883427113325732
+    second: BloodSugarMeter_17
+  - first:
+      213: 5512158992037566014
+    second: BloodSugarMeter_18
+  - first:
+      213: 4755180698105055696
+    second: BloodSugarMeter_19
+  - first:
+      213: -8262758376027724707
+    second: BloodSugarMeter_20
+  - first:
+      213: -315215823568827376
+    second: BloodSugarMeter_21
+  - first:
+      213: -3957851101439804795
+    second: BloodSugarMeter_22
+  - first:
+      213: -7355628023729287831
+    second: BloodSugarMeter_23
+  - first:
+      213: 2095200275056554742
+    second: BloodSugarMeter_24
+  - first:
+      213: 5213740031379061836
+    second: BloodSugarMeter_25
+  - first:
+      213: 1434426112515586399
+    second: BloodSugarMeter_26
+  - first:
+      213: 5399945455050137272
+    second: BloodSugarMeter_27
+  - first:
+      213: 4042656023210313706
+    second: BloodSugarMeter_28
+  - first:
+      213: -2960426363432741979
+    second: BloodSugarMeter_29
+  - first:
+      213: -2322672220485857089
+    second: BloodSugarMeter_30
+  - first:
+      213: -5152499207562802386
+    second: BloodSugarMeter_31
+  - first:
+      213: -413584141302260033
+    second: BloodSugarMeter_32
+  - first:
+      213: -444134153232970418
+    second: BloodSugarMeter_33
+  - first:
+      213: -7662243531611501306
+    second: BloodSugarMeter_34
+  - first:
+      213: -8523124123237303413
+    second: BloodSugarMeter_35
+  - first:
+      213: -5352525544592066337
+    second: BloodSugarMeter_36
+  - first:
+      213: -715119351794371101
+    second: BloodSugarMeter_37
+  - first:
+      213: -8872915628048589675
+    second: BloodSugarMeter_38
+  - first:
+      213: 2248647003472446679
+    second: BloodSugarMeter_39
+  - first:
+      213: -5358333432886503719
+    second: BloodSugarMeter_40
+  - first:
+      213: 529600845031177197
+    second: BloodSugarMeter_41
+  - first:
+      213: 6061311257402661779
+    second: BloodSugarMeter_42
+  - first:
+      213: -6424294368964648528
+    second: BloodSugarMeter_43
+  - first:
+      213: -8025732140519319347
+    second: BloodSugarMeter_44
+  - first:
+      213: -1941419140947183415
+    second: BloodSugarMeter_45
+  - first:
+      213: -293718219105619419
+    second: BloodSugarMeter_46
+  - first:
+      213: -7154552148770637229
+    second: BloodSugarMeter_47
+  - first:
+      213: 4216920151166112121
+    second: BloodSugarMeter_48
+  - first:
+      213: -6278430716978213595
+    second: BloodSugarMeter_49
+  - first:
+      213: -2017298043396882157
+    second: BloodSugarMeter_50
+  - first:
+      213: 7847864176749481870
+    second: BloodSugarMeter_51
+  - first:
+      213: -7257554494365942134
+    second: BloodSugarMeter_52
+  - first:
+      213: -8630488896896847355
+    second: BloodSugarMeter_53
+  - first:
+      213: -1532396351069343898
+    second: BloodSugarMeter_54
+  - first:
+      213: -9166578170636154061
+    second: BloodSugarMeter_55
+  - first:
+      213: 7133376162887942842
+    second: BloodSugarMeter_56
+  - first:
+      213: -7895941342013709796
+    second: BloodSugarMeter_57
+  - first:
+      213: -508645144514482962
+    second: BloodSugarMeter_58
+  - first:
+      213: 6770454444827008239
+    second: BloodSugarMeter_59
+  - first:
+      213: 8623846740457614653
+    second: BloodSugarMeter_60
+  - first:
+      213: -2857100445387136730
+    second: BloodSugarMeter_61
+  - first:
+      213: 7237122256058808181
+    second: BloodSugarMeter_62
+  - first:
+      213: 8142556391569879642
+    second: BloodSugarMeter_63
+  - first:
+      213: 4443903623237462677
+    second: BloodSugarMeter_64
+  - first:
+      213: -9015876469269168221
+    second: BloodSugarMeter_65
+  - first:
+      213: -7020251310803140662
+    second: BloodSugarMeter_66
+  - first:
+      213: -6231329460449254152
+    second: BloodSugarMeter_67
+  - first:
+      213: -2379234486923216583
+    second: BloodSugarMeter_68
+  - first:
+      213: 3924540863910451257
+    second: BloodSugarMeter_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BloodSugarMeter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 350
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555716c40fabb5870800000000000000
+      internalID: 8672731048668394837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSugarMeter_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 350
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ad803da9cf59720800000000000000
+      internalID: 2852463680904813147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSugarMeter_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 350
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0697233d387181000800000000000000
+      internalID: 6781254392510816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSugarMeter_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 350
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793610a1222db7f90800000000000000
+      internalID: -6954734155636579433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSugarMeter_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 350
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a72a2a6e8e36af0800000000000000
+      internalID: -404223464264533359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSugarMeter_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 350
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af030d03918abbd0800000000000000
+      internalID: -2613634165156671578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSugarMeter_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 350
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2864ba129bcf7d050800000000000000
+      internalID: 5825402515091048066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 303583f0e74663c4783206fa97ed2e14
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BloodSugarMeter_0: 8672731048668394837
+      BloodSugarMeter_1: 2852463680904813147
+      BloodSugarMeter_2: 6781254392510816
+      BloodSugarMeter_3: -6954734155636579433
+      BloodSugarMeter_4: -404223464264533359
+      BloodSugarMeter_5: -2613634165156671578
+      BloodSugarMeter_6: 5825402515091048066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
