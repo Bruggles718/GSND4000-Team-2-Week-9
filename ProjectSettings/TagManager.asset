@@ -7,6 +7,12 @@ TagManager:
   - Ground
   - Collectible
   - Win
+  - firepoint
+  - weaponHolder
+  - pistol
+  - rifle
+  - shotgun
+  - weapon
   layers:
   - Default
   - TransparentFX
