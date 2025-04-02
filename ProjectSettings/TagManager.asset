@@ -15,6 +15,7 @@ TagManager:
   - PlayerBullet
   - Level
   - Box
+  - firepoint
   layers:
   - Default
   - TransparentFX
