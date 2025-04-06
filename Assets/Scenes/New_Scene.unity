@@ -19716,37 +19716,11 @@ Transform:
   - {fileID: 1614451523}
   m_Father: {fileID: 2016915044}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1356898513
+--- !u!1 &1356898513 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4775545824699048945, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
+  m_PrefabInstance: {fileID: 1813224229}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1356898514}
-  m_Layer: 0
-  m_Name: firepoint
-  m_TagString: firepoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1356898514
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356898513}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.16, y: 0.035, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1813224230}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1364046377
 GameObject:
   m_ObjectHideFlags: 0
@@ -20064,7 +20038,6 @@ GameObject:
   - component: {fileID: 1445495624}
   - component: {fileID: 1445495625}
   - component: {fileID: 1445495626}
-  - component: {fileID: 1445495627}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -20142,6 +20115,7 @@ Transform:
   m_Children:
   - {fileID: 539647496}
   - {fileID: 1813224230}
+  - {fileID: 1792175303}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &1445495620
@@ -20288,22 +20262,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 9355f2998d8dafc4cab2b9f185369cec, type: 2}
---- !u!114 &1445495627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445495615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 8c7f83baa02f9154888be35d42da5a5b, type: 2}
 --- !u!1 &1492189477
 GameObject:
   m_ObjectHideFlags: 0
@@ -45642,6 +45600,81 @@ Transform:
   - {fileID: 284590869}
   m_Father: {fileID: 1797087800}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1792175302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1445495619}
+    m_Modifications:
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.151
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940329653077991920, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"firepoint","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"damage","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"fireRate","value":{"$content":0.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"range","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletSpeed","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletsPerShot","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletSpreadAngle","value":{"$content":60.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"canShoot","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"nextShotTime","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5260406692669734311, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+      propertyPath: m_Name
+      value: shotgun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+--- !u!4 &1792175303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2518819539251055791, guid: f9102d0f910e9664281927bddd87a2a9, type: 3}
+  m_PrefabInstance: {fileID: 1792175302}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1797087799
 GameObject:
   m_ObjectHideFlags: 0
@@ -45685,6 +45718,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1445495619}
     m_Modifications:
+    - target: {fileID: 92005440299283123, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"firepoint","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"damage","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"fireRate","value":{"$content":0.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"range","value":{"$content":30.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletSpeed","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletsPerShot","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletSpreadAngle","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"canShoot","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 92005440299283123, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 92005440299283123, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1356898513}
     - target: {fileID: 3598245113398976345, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.443
@@ -45725,65 +45778,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4122977374856083467, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122977374856083467, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c062d4667e422349bc8904a330d2399, type: 2}
+    - target: {fileID: 4775545824699048945, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
+      propertyPath: m_Name
+      value: pistolFirepoint
+      objectReference: {fileID: 0}
     - target: {fileID: 8527999447897494225, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
       propertyPath: m_Name
       value: Pistol
       objectReference: {fileID: 0}
+    - target: {fileID: 8527999447897494225, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 3598245113398976345, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1356898514}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8527999447897494225, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1813224233}
-    - targetCorrespondingSourceObject: {fileID: 8527999447897494225, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1813224232}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
 --- !u!4 &1813224230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3598245113398976345, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
   m_PrefabInstance: {fileID: 1813224229}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1813224231 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8527999447897494225, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
-  m_PrefabInstance: {fileID: 1813224229}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1813224232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813224231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: c688e9aff3ef43349a6962dffa2d060f, type: 2}
---- !u!114 &1813224233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813224231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1 &1836281242
 GameObject:
   m_ObjectHideFlags: 0
