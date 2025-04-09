@@ -14781,10 +14781,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -45729,6 +45729,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 5506300565794554066, guid: a7c406959aedaf14aa6141c07c5123da, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506300565794554066, guid: a7c406959aedaf14aa6141c07c5123da, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 5553196933163621533, guid: a7c406959aedaf14aa6141c07c5123da, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.9651523
@@ -45768,6 +45776,18 @@ PrefabInstance:
     - target: {fileID: 5553196933163621533, guid: a7c406959aedaf14aa6141c07c5123da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5905001538806516596, guid: a7c406959aedaf14aa6141c07c5123da, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5905001538806516596, guid: a7c406959aedaf14aa6141c07c5123da, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5905001538806516596, guid: a7c406959aedaf14aa6141c07c5123da, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46117,7 +46137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8527999447897494225, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
       propertyPath: m_Name
-      value: Pistol
+      value: pistol
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4389813313572581581, guid: 1955c35539ef0a74bb3a458e3e08d3b5, type: 3}
@@ -46715,10 +46735,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -56665,7 +56685,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 57603415108515398, guid: 4b02019ca06de5f4e816670be1e99f11, type: 3}
       propertyPath: m_Name
-      value: rifle
+      value: railgun
       objectReference: {fileID: 0}
     - target: {fileID: 57603415108515398, guid: 4b02019ca06de5f4e816670be1e99f11, type: 3}
       propertyPath: m_IsActive
