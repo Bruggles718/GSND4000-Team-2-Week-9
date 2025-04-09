@@ -15556,6 +15556,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a19568c173110974e86e710441919ec8, type: 3}
+--- !u!1001 &457742336
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 901540381392997353, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_Name
+      value: healdrops (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 96.95677
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.124026775
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
 --- !u!1 &458868333 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4711706637480028120, guid: a7c406959aedaf14aa6141c07c5123da, type: 3}
@@ -21611,8 +21668,8 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bossAttacking","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bossMoving","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerDmg","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerHealth","value":{"$content":12.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerMaxHealth","value":{"$content":12.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerHealth","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerMaxHealth","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsPlayerDying","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bossObject","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"playerObject","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -59961,6 +60018,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 22c76c06a8a0c8a40a663eede8ce435f, type: 3}
+--- !u!1001 &4785912469632519788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 901540381392997353, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_Name
+      value: healdrops
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5960095916277107708, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 396195b81ecf41f4e8bac3ab271e3383, type: 3}
 --- !u!1001 &4849900831153998359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60161,3 +60275,5 @@ SceneRoots:
   - {fileID: 445781683}
   - {fileID: 1726081045}
   - {fileID: 281083435}
+  - {fileID: 4785912469632519788}
+  - {fileID: 457742336}
