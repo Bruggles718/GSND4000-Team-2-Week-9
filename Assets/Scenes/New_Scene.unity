@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &169534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7094787956287065843, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+  m_PrefabInstance: {fileID: 780420268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7509900
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +484,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &34379140
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 324433415}
+    m_Modifications:
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -97.94624
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.551418
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28184938
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422874317122251282, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+      propertyPath: m_Name
+      value: Level Blockout (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
 --- !u!1001 &37905866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15177,6 +15239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1048222824}
   - {fileID: 827986926}
   - {fileID: 1292721376}
   m_Father: {fileID: 0}
@@ -16606,7 +16669,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 12
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -16631,7 +16694,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: -10}
+  m_LocalPosition: {x: 4.22, y: 3.42, z: -10}
   m_LocalScale: {x: 1, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16671,7 +16734,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"deadZoneY","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"cameraSpeed","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"targetPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"cameraOffset","value":{"x":0.0,"y":6.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"cameraOffset","value":{"x":0.0,"y":3.42,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"smoothTime","value":{"$content":0.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"shouldTrack","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -18088,6 +18151,76 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &692615951
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 143630798640674048, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 143630798640674048, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 143630798640674048, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1445495615}
+    - target: {fileID: 3949681805479219946, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_Name
+      value: Death Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.107574
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5238937
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811516772947615234, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e78f5c9e79a14224ca02b24a06cee7e7, type: 3}
 --- !u!1 &711344840
 GameObject:
   m_ObjectHideFlags: 0
@@ -18264,6 +18397,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &712639975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3637084426658735298, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+  m_PrefabInstance: {fileID: 780420268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &764629027
 GameObject:
   m_ObjectHideFlags: 0
@@ -18352,6 +18490,204 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &780420268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 112.68628
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 64.54541
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.06494862
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266012927993019511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479896354649598086, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Collection_Message","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Code_Collected","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479896354649598086, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479896354649598086, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1445495615}
+    - target: {fileID: 4544773883137839020, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Collection_Message","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Code_Collected","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544773883137839020, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544773883137839020, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1445495615}
+    - target: {fileID: 4756161199522962690, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Collection_Message","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Code_Collected","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4756161199522962690, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4756161199522962690, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1445495615}
+    - target: {fileID: 5331234808057724697, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Collection_Message","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Code_Collected","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331234808057724697, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331234808057724697, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1445495615}
+    - target: {fileID: 6443742208238763242, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Collection_Message","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Code_Collected","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443742208238763242, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443742208238763242, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1445495615}
+    - target: {fileID: 7353085525018918574, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Interaction
+        Text","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Message
+        UI","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Crosshair","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"I
+        have it Button","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Dont
+        lie text","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Done
+        Text","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"I
+        have it ","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Code
+        Ability Used","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353085525018918574, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353085525018918574, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1445495615}
+    - target: {fileID: 7353085525018918574, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[2]'
+      value: 
+      objectReference: {fileID: 712639975}
+    - target: {fileID: 7353085525018918574, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1108091184}
+    - target: {fileID: 7353085525018918574, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[4]'
+      value: 
+      objectReference: {fileID: 169534}
+    - target: {fileID: 7353085525018918574, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[5]'
+      value: 
+      objectReference: {fileID: 1225469298}
+    - target: {fileID: 7353085525018918574, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[6]'
+      value: 
+      objectReference: {fileID: 1108091182}
+    - target: {fileID: 7953952870732293837, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      propertyPath: m_Name
+      value: Code Narrative
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 763991283016849328, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 101085390752150955, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 1876491054867256387, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8299417806749581359, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8967828000475965189, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 6535572774477708418, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
 --- !u!1 &804479377
 GameObject:
   m_ObjectHideFlags: 0
@@ -18534,7 +18870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &827986926
 Transform:
   m_ObjectHideFlags: 0
@@ -19450,7 +19786,15 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"InventoryOpen","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"doubleDamageStopTime","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"damageMultiplier","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Num
+      of Codes Collected","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Num
+      of Code Stations in the Scene","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Camera
+      Freeze","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Respawn
+      Position","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1592592264}
     - {fileID: 684817708}
@@ -20251,6 +20595,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a19568c173110974e86e710441919ec8, type: 3}
+--- !u!4 &1048222824 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4566705849758792862, guid: 05d712a780964424dac0110cd3181f5c, type: 3}
+  m_PrefabInstance: {fileID: 34379140}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1064322375
 GameObject:
   m_ObjectHideFlags: 0
@@ -20660,6 +21009,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1108091182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3728760665148705511, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+  m_PrefabInstance: {fileID: 780420268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1108091184 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 868487857866490769, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+  m_PrefabInstance: {fileID: 780420268}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108091182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1109995882
 GameObject:
   m_ObjectHideFlags: 0
@@ -21714,6 +22079,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4190032158743798833, guid: a19568c173110974e86e710441919ec8, type: 3}
   m_PrefabInstance: {fileID: 1044377193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1225469298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8048549105453485314, guid: 43008cd736cbc234b9accbf7e6920ac9, type: 3}
+  m_PrefabInstance: {fileID: 780420268}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1242099680 stripped
 Transform:
@@ -23385,7 +23755,6 @@ GameObject:
   - component: {fileID: 1445495622}
   - component: {fileID: 1445495620}
   - component: {fileID: 1445495621}
-  - component: {fileID: 1445495623}
   - component: {fileID: 1445495624}
   - component: {fileID: 1445495625}
   - component: {fileID: 1445495626}
@@ -23552,22 +23921,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 70e1ec14e5cc4cd409b2d3c78a7139a1, type: 2}
---- !u!114 &1445495623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445495615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 67041876380b79942b862c2b391aaf7b, type: 2}
 --- !u!114 &1445495624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47751,705 +48104,7 @@ CompositeCollider2D:
   m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1496739681}
-    m_ColliderPaths:
-    - - X: 1140000000
-        Y: 640000000
-      - X: 950000000
-        Y: 640000000
-      - X: 950000000
-        Y: 650000000
-      - X: 920000000
-        Y: 650000000
-      - X: 920000000
-        Y: 820000000
-      - X: 950000000
-        Y: 820000000
-      - X: 950000000
-        Y: 830000000
-      - X: 1380000000
-        Y: 830000000
-      - X: 1380000000
-        Y: 820000000
-      - X: 1410000000
-        Y: 820000000
-      - X: 1410000000
-        Y: 650000000
-      - X: 1360000000
-        Y: 650000000
-      - X: 1360000000
-        Y: 640000000
-      - X: 1200000000
-        Y: 640000000
-      - X: 1200000000
-        Y: 630000000
-      - X: 1370000000
-        Y: 630000000
-      - X: 1370000000
-        Y: 640000000
-      - X: 1420000000
-        Y: 640000000
-      - X: 1420000000
-        Y: 830000000
-      - X: 1390000000
-        Y: 830000000
-      - X: 1390000000
-        Y: 840000000
-      - X: 940000000
-        Y: 840000000
-      - X: 940000000
-        Y: 830000000
-      - X: 910000000
-        Y: 830000000
-      - X: 910000000
-        Y: 640000000
-      - X: 940000000
-        Y: 640000000
-      - X: 940000000
-        Y: 630000000
-      - X: 1140000000
-        Y: 630000000
-    - - X: 2470000128
-        Y: 430000000
-      - X: 2240000000
-        Y: 430000000
-      - X: 2240000000
-        Y: 600000000
-      - X: 2809999872
-        Y: 600000000
-      - X: 2809999872
-        Y: 480000000
-      - X: 2820000000
-        Y: 480000000
-      - X: 2820000000
-        Y: 490000000
-      - X: 2830000128
-        Y: 490000000
-      - X: 2830000128
-        Y: 600000000
-      - X: 2820000000
-        Y: 600000000
-      - X: 2820000000
-        Y: 610000000
-      - X: 2230000128
-        Y: 610000000
-      - X: 2230000128
-        Y: 600000000
-      - X: 2220000000
-        Y: 600000000
-      - X: 2220000000
-        Y: 430000000
-      - X: 2230000128
-        Y: 430000000
-      - X: 2230000128
-        Y: 420000000
-      - X: 2470000128
-        Y: 420000000
-    - - X: 1460000000
-        Y: 600000000
-      - X: 850000000
-        Y: 600000000
-      - X: 850000000
-        Y: 580000000
-      - X: 1460000000
-        Y: 580000000
-    - - X: 50000000
-        Y: 470000000
-      - X: -170000000
-        Y: 470000000
-      - X: -170000000
-        Y: 570000000
-      - X: -160000000
-        Y: 570000000
-      - X: -160000000
-        Y: 580000000
-      - X: -140000000
-        Y: 580000000
-      - X: -140000000
-        Y: 590000000
-      - X: 140000000
-        Y: 590000000
-      - X: 140000000
-        Y: 580000000
-      - X: 150000000
-        Y: 580000000
-      - X: 150000000
-        Y: 490000000
-      - X: 160000000
-        Y: 490000000
-      - X: 160000000
-        Y: 600000000
-      - X: -150000000
-        Y: 600000000
-      - X: -150000000
-        Y: 590000000
-      - X: -170000000
-        Y: 590000000
-      - X: -170000000
-        Y: 580000000
-      - X: -180000000
-        Y: 580000000
-      - X: -180000000
-        Y: 460000000
-      - X: 50000000
-        Y: 460000000
-    - - X: 1710000000
-        Y: 560000000
-      - X: 1560000000
-        Y: 560000000
-      - X: 1560000000
-        Y: 550000000
-      - X: 1710000000
-        Y: 550000000
-    - - X: 1980000000
-        Y: 560000000
-      - X: 1840000000
-        Y: 560000000
-      - X: 1840000000
-        Y: 550000000
-      - X: 1980000000
-        Y: 550000000
-    - - X: 750000000
-        Y: 550000000
-      - X: 600000000
-        Y: 550000000
-      - X: 600000000
-        Y: 540000000
-      - X: 750000000
-        Y: 540000000
-    - - X: 2040000000
-        Y: 430000000
-      - X: 2050000000
-        Y: 430000000
-      - X: 2050000000
-        Y: 520000000
-      - X: 2010000000
-        Y: 520000000
-      - X: 2010000000
-        Y: 490000000
-      - X: 1970000000
-        Y: 490000000
-      - X: 1970000000
-        Y: 470000000
-      - X: 1930000000
-        Y: 470000000
-      - X: 1930000000
-        Y: 430000000
-      - X: 1470000000
-        Y: 430000000
-      - X: 1470000000
-        Y: 420000000
-      - X: 2040000000
-        Y: 420000000
-    - - X: 480000000
-        Y: 500000000
-      - X: 360000000
-        Y: 500000000
-      - X: 360000000
-        Y: 490000000
-      - X: 480000000
-        Y: 490000000
-    - - X: 2809999872
-        Y: 480000000
-      - X: 2500000000
-        Y: 480000000
-      - X: 2500000000
-        Y: 470000000
-      - X: 2809999872
-        Y: 470000000
-    - - X: 250000000
-        Y: 460000000
-      - X: 190000000
-        Y: 460000000
-      - X: 190000000
-        Y: 430000000
-      - X: 80000000
-        Y: 430000000
-      - X: 80000000
-        Y: 400000000
-      - X: -180000000
-        Y: 400000000
-      - X: -180000000
-        Y: 390000000
-      - X: 250000000
-        Y: 390000000
-    - - X: 1300000000
-        Y: 430000000
-      - X: 1200000000
-        Y: 430000000
-      - X: 1200000000
-        Y: 420000000
-      - X: 1300000000
-        Y: 420000000
-    - - X: -330000000
-        Y: 400000000
-      - X: -380000000
-        Y: 400000000
-      - X: -380000000
-        Y: 390000000
-      - X: -330000000
-        Y: 390000000
-    - - X: 870000000
-        Y: 220000000
-      - X: 460000000
-        Y: 220000000
-      - X: 460000000
-        Y: 230000000
-      - X: 450000000
-        Y: 230000000
-      - X: 450000000
-        Y: 280000000
-      - X: 460000000
-        Y: 280000000
-      - X: 460000000
-        Y: 290000000
-      - X: 870000000
-        Y: 290000000
-      - X: 870000000
-        Y: 320000000
-      - X: 860000000
-        Y: 320000000
-      - X: 860000000
-        Y: 300000000
-      - X: 600000000
-        Y: 300000000
-      - X: 600000000
-        Y: 310000000
-      - X: 590000000
-        Y: 310000000
-      - X: 590000000
-        Y: 380000000
-      - X: 600000000
-        Y: 380000000
-      - X: 600000000
-        Y: 390000000
-      - X: 860000000
-        Y: 390000000
-      - X: 860000000
-        Y: 370000000
-      - X: 870000000
-        Y: 370000000
-      - X: 870000000
-        Y: 400000000
-      - X: 580000000
-        Y: 400000000
-      - X: 580000000
-        Y: 300000000
-      - X: 440000000
-        Y: 300000000
-      - X: 440000000
-        Y: 210000000
-      - X: 870000000
-        Y: 210000000
-    - - X: 2580000000
-        Y: 390000000
-      - X: 2500000000
-        Y: 390000000
-      - X: 2500000000
-        Y: 380000000
-      - X: 2580000000
-        Y: 380000000
-    - - X: 1450000000
-        Y: 330000000
-      - X: 1220000000
-        Y: 330000000
-      - X: 1220000000
-        Y: 360000000
-      - X: 1170000000
-        Y: 360000000
-      - X: 1170000000
-        Y: 390000000
-      - X: 1130000000
-        Y: 390000000
-      - X: 1130000000
-        Y: 320000000
-      - X: 1450000000
-        Y: 320000000
-    - - X: -290000000
-        Y: 310000000
-      - X: -370000000
-        Y: 310000000
-      - X: -370000000
-        Y: 340000000
-      - X: -410000000
-        Y: 340000000
-      - X: -410000000
-        Y: 370000000
-      - X: -460000000
-        Y: 370000000
-      - X: -460000000
-        Y: 300000000
-      - X: -290000000
-        Y: 300000000
-    - - X: 2470000128
-        Y: 360000000
-      - X: 2300000000
-        Y: 360000000
-      - X: 2300000000
-        Y: 350000000
-      - X: 2470000128
-        Y: 350000000
-    - - X: 2440000000
-        Y: 250000000
-      - X: 2300000000
-        Y: 250000000
-      - X: 2300000000
-        Y: 280000000
-      - X: 2270000128
-        Y: 280000000
-      - X: 2270000128
-        Y: 320000000
-      - X: 2240000000
-        Y: 320000000
-      - X: 2240000000
-        Y: 240000000
-      - X: 2440000000
-        Y: 240000000
-    - - X: 980000000
-        Y: 300000000
-      - X: 940000000
-        Y: 300000000
-      - X: 940000000
-        Y: 260000000
-      - X: 890000000
-        Y: 260000000
-      - X: 890000000
-        Y: 250000000
-      - X: 980000000
-        Y: 250000000
-    - - X: 1860000000
-        Y: 220000000
-      - X: 1560000000
-        Y: 220000000
-      - X: 1560000000
-        Y: 260000000
-      - X: 1520000000
-        Y: 260000000
-      - X: 1520000000
-        Y: 300000000
-      - X: 1480000000
-        Y: 300000000
-      - X: 1480000000
-        Y: 210000000
-      - X: 1860000000
-        Y: 210000000
-    - - X: -180000000
-        Y: 280000000
-      - X: -260000000
-        Y: 280000000
-      - X: -260000000
-        Y: 270000000
-      - X: -180000000
-        Y: 270000000
-    - - X: 130000000
-        Y: 250000000
-      - X: -150000000
-        Y: 250000000
-      - X: -150000000
-        Y: 240000000
-      - X: 130000000
-        Y: 240000000
-    - - X: 210000000
-        Y: 220000000
-      - X: 160000000
-        Y: 220000000
-      - X: 160000000
-        Y: 210000000
-      - X: 210000000
-        Y: 210000000
-    - - X: 2550000128
-        Y: 220000000
-      - X: 2470000128
-        Y: 220000000
-      - X: 2470000128
-        Y: 210000000
-      - X: 2550000128
-        Y: 210000000
-    - - X: 1970000000
-        Y: 200000000
-      - X: 1880000000
-        Y: 200000000
-      - X: 1880000000
-        Y: 190000000
-      - X: 1970000000
-        Y: 190000000
-    - - X: 140000000
-        Y: 190000000
-      - X: 90000000
-        Y: 190000000
-      - X: 90000000
-        Y: 180000000
-      - X: 140000000
-        Y: 180000000
-    - - X: 2060000000
-        Y: 180000000
-      - X: 1990000000
-        Y: 180000000
-      - X: 1990000000
-        Y: 170000000
-      - X: 2060000000
-        Y: 170000000
-    - - X: 2600000000
-        Y: 120000000
-      - X: 2609999872
-        Y: 120000000
-      - X: 2609999872
-        Y: 130000000
-      - X: 2620000000
-        Y: 130000000
-      - X: 2620000000
-        Y: 180000000
-      - X: 2580000000
-        Y: 180000000
-      - X: 2580000000
-        Y: 150000000
-      - X: 2540000000
-        Y: 150000000
-      - X: 2540000000
-        Y: 120000000
-      - X: 2369999872
-        Y: 120000000
-      - X: 2369999872
-        Y: 110000000
-      - X: 2600000000
-        Y: 110000000
-    - - X: 940000000
-        Y: 180000000
-      - X: 900000000
-        Y: 180000000
-      - X: 900000000
-        Y: 150000000
-      - X: 860000000
-        Y: 150000000
-      - X: 860000000
-        Y: 120000000
-      - X: 760000000
-        Y: 120000000
-      - X: 760000000
-        Y: 110000000
-      - X: 940000000
-        Y: 110000000
-    - - X: 2180000000
-        Y: 120000000
-      - X: 2120000000
-        Y: 120000000
-      - X: 2120000000
-        Y: 160000000
-      - X: 2080000000
-        Y: 160000000
-      - X: 2080000000
-        Y: 140000000
-      - X: 2040000000
-        Y: 140000000
-      - X: 2040000000
-        Y: 120000000
-      - X: 1780000000
-        Y: 120000000
-      - X: 1780000000
-        Y: 110000000
-      - X: 2180000000
-        Y: 110000000
-    - - X: 70000000
-        Y: 160000000
-      - X: 20000000
-        Y: 160000000
-      - X: 20000000
-        Y: 140000000
-      - X: -290000000
-        Y: 140000000
-      - X: -290000000
-        Y: 130000000
-      - X: 70000000
-        Y: 130000000
-    - - X: -240000000
-        Y: 70000000
-      - X: -300000000
-        Y: 70000000
-      - X: -300000000
-        Y: 90000000
-      - X: -330000000
-        Y: 90000000
-      - X: -330000000
-        Y: 110000000
-      - X: -430000000
-        Y: 110000000
-      - X: -430000000
-        Y: 60000000
-      - X: -240000000
-        Y: 60000000
-    - - X: 1760000000
-        Y: 100000000
-      - X: 1650000000
-        Y: 100000000
-      - X: 1650000000
-        Y: 90000000
-      - X: 1760000000
-        Y: 90000000
-    - - X: 730000000
-        Y: 90000000
-      - X: 640000000
-        Y: 90000000
-      - X: 640000000
-        Y: 80000000
-      - X: 730000000
-        Y: 80000000
-    - - X: 1630000000
-        Y: 80000000
-      - X: 1520000000
-        Y: 80000000
-      - X: 1520000000
-        Y: 70000000
-      - X: 1630000000
-        Y: 70000000
-    - - X: 1600000000
-        Y: 0
-      - X: 1560000000
-        Y: 0
-      - X: 1560000000
-        Y: 20000000
-      - X: 1530000000
-        Y: 20000000
-      - X: 1530000000
-        Y: 40000000
-      - X: 1500000000
-        Y: 40000000
-      - X: 1500000000
-        Y: 60000000
-      - X: 1420000000
-        Y: 60000000
-      - X: 1420000000
-        Y: 40000000
-      - X: 1110000000
-        Y: 40000000
-      - X: 1110000000
-        Y: 20000000
-      - X: 1060000000
-        Y: 20000000
-      - X: 1060000000
-        Y: -20000000
-      - X: 1600000000
-        Y: -20000000
-    - - X: 610000000
-        Y: 50000000
-      - X: 560000000
-        Y: 50000000
-      - X: 560000000
-        Y: 30000000
-      - X: 500000000
-        Y: 30000000
-      - X: 500000000
-        Y: 10000000
-      - X: 440000000
-        Y: 10000000
-      - X: 440000000
-        Y: -10000000
-      - X: 350000000
-        Y: -10000000
-      - X: 350000000
-        Y: -20000000
-      - X: 610000000
-        Y: -20000000
-    - - X: -160000000
-        Y: 40000000
-      - X: -210000000
-        Y: 40000000
-      - X: -210000000
-        Y: 30000000
-      - X: -160000000
-        Y: 30000000
-    - - X: 2580000000
-        Y: -10000000
-      - X: 2280000000
-        Y: -10000000
-      - X: 2280000000
-        Y: 10000000
-      - X: 2209999872
-        Y: 10000000
-      - X: 2209999872
-        Y: 30000000
-      - X: 2130000000
-        Y: 30000000
-      - X: 2130000000
-        Y: 10000000
-      - X: 2060000000
-        Y: 10000000
-      - X: 2060000000
-        Y: -10000000
-      - X: 1960000000
-        Y: -10000000
-      - X: 1960000000
-        Y: -20000000
-      - X: 2580000000
-        Y: -20000000
-    - - X: -80000000
-        Y: 10000000
-      - X: -130000000
-        Y: 10000000
-      - X: -130000000
-        Y: 0
-      - X: -80000000
-        Y: 0
-    - - X: 230000000
-        Y: -10000000
-      - X: 190000000
-        Y: -10000000
-      - X: 190000000
-        Y: 10000000
-      - X: 160000000
-        Y: 10000000
-      - X: 160000000
-        Y: 0
-      - X: 120000000
-        Y: 0
-      - X: 120000000
-        Y: -10000000
-      - X: -60000000
-        Y: -10000000
-      - X: -60000000
-        Y: -20000000
-      - X: 230000000
-        Y: -20000000
-    - - X: 1040000000
-        Y: 0
-      - X: 1010000000
-        Y: 0
-      - X: 1010000000
-        Y: -10000000
-      - X: 690000000
-        Y: -10000000
-      - X: 690000000
-        Y: 10000000
-      - X: 640000000
-        Y: 10000000
-      - X: 640000000
-        Y: -20000000
-      - X: 1040000000
-        Y: -20000000
-    - - X: 1930000000
-        Y: -10000000
-      - X: 1630000000
-        Y: -10000000
-      - X: 1630000000
-        Y: -20000000
-      - X: 1930000000
-        Y: -20000000
-    - - X: 2710000128
-        Y: -10000000
-      - X: 2630000128
-        Y: -10000000
-      - X: 2630000128
-        Y: -20000000
-      - X: 2710000128
-        Y: -20000000
-    - - X: 310000000
-        Y: -10000000
-      - X: 270000000
-        Y: -10000000
-      - X: 270000000
-        Y: -20000000
-      - X: 310000000
-        Y: -20000000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: 113.99998, y: 63}
@@ -62331,3 +61986,5 @@ SceneRoots:
   - {fileID: 831928553}
   - {fileID: 1482642110}
   - {fileID: 2001487214}
+  - {fileID: 780420268}
+  - {fileID: 692615951}
