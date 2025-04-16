@@ -1342,6 +1342,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
       propertyPath: m_Name
       value: PistolMinion
@@ -1537,6 +1549,14 @@ PrefabInstance:
     - target: {fileID: 3860934711667283546, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876730059417036006, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_Size.x
+      value: 25.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876730059417036006, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_Offset.x
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_Name
@@ -18788,6 +18808,30 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
       propertyPath: m_Name
       value: PistolMinion
@@ -19778,8 +19822,8 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bossAttacking","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bossMoving","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerDmg","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerHealth","value":{"$content":12.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerMaxHealth","value":{"$content":12.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerHealth","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"playerMaxHealth","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsPlayerDying","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bossObject","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"playerObject","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -20035,6 +20079,26 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
       propertyPath: m_Name
       value: PistolMinion
@@ -20133,9 +20197,21 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.975
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.93
+      objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
       propertyPath: m_Name
       value: PistolMinion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265696230613294229, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8135986713637852019, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
       propertyPath: m_Color.a
@@ -20309,6 +20385,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5876730059417036006, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_Size.x
+      value: 32.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876730059417036006, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_Offset.x
+      value: -4.9
+      objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_Name
       value: Enemy_2
@@ -20327,7 +20411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8955787786254725025, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 68.92766
+      value: 63.7
       objectReference: {fileID: 0}
     - target: {fileID: 8955787786254725025, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20754,6 +20838,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3860934711667283546, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745049163292686300, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 3277a1a1b458f7248a7249e313390bff, type: 3}
@@ -49435,6 +49539,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5876730059417036006, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_Size.x
+      value: 18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876730059417036006, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_Offset.x
+      value: 5.3
+      objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_Name
       value: Enemy_2
@@ -50027,7 +50139,7 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"firepoint","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"damage","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"fireRate","value":{"$content":0.2,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"range","value":{"$content":30.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"range","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletSpeed","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletsPerShot","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bulletSpreadAngle","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -51174,9 +51286,21 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5876730059417036006, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_Size.x
+      value: 31.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876730059417036006, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_Offset.x
+      value: -3.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_Name
       value: Enemy_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265696230613294229, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8955787786254725025, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_LocalScale.x
@@ -51693,15 +51817,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3860934711667283546, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3860934711667283546, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7265696230613294229, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_Name
       value: Enemy_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265696230613294229, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8955787786254725025, guid: 782155c63e2d98d439c0425b1fe1e9bb, type: 3}
       propertyPath: m_LocalScale.x
