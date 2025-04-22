@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="851dec53-308c-4134-88cb-1c6c371fe18e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GSND4000-Team-2-Week-9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GSND4000-Team-2-Week-9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HealthPostProcessingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HealthPostProcessingController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/New_Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Project 7/PlayerDeath.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Project 7/PlayerDeath.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +21,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/HealthPostProcessingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap/Editor/GridEditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity/SceneSingleton.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2w0S287I3FPVUoBkUkBWDnap7cL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Zhaoze-Character-Sprites",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745176788764</updated>
       <workItem from="1745176790594" duration="1508000" />
+      <workItem from="1745336615154" duration="743000" />
     </task>
     <servers />
   </component>

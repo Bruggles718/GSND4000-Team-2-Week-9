@@ -8,10 +8,13 @@ public class HealthPostProcessingController : MonoBehaviour
     public string playerHealthVariableName = "playerHealth";
     public AnimationCurve chromaticAberrationCurve = new AnimationCurve(new Keyframe(0, 0.35f), new Keyframe(16, 0.125f));
     public AnimationCurve vignetteCurve = new AnimationCurve(new Keyframe(0, 0.1f), new Keyframe(16, 0.0f));
+    public float transitionSpeed = 2.0f;
 
     private float playerHealth;
     private ChromaticAberration chromaticAberration;
     private Vignette vignette;
+    private float targetChromaticAberrationIntensity; // Added target values
+    private float targetVignetteIntensity;
 
     void Start()
     {
@@ -56,6 +59,9 @@ public class HealthPostProcessingController : MonoBehaviour
             enabled = false;
             return;
         }
+        // Initialize target values
+        targetChromaticAberrationIntensity = chromaticAberration.intensity.value;
+        targetVignetteIntensity = vignette.intensity.value;
     }
 
     void Update()
@@ -94,10 +100,12 @@ public class HealthPostProcessingController : MonoBehaviour
             return;
         }
 
-        float chromaticAberrationIntensity = chromaticAberrationCurve.Evaluate(playerHealth);
-        float vignetteIntensity = vignetteCurve.Evaluate(playerHealth);
+        // Calculate target intensities
+        targetChromaticAberrationIntensity = chromaticAberrationCurve.Evaluate(playerHealth);
+        targetVignetteIntensity = vignetteCurve.Evaluate(playerHealth);
 
-        chromaticAberration.intensity.value = chromaticAberrationIntensity;
-        vignette.intensity.value = vignetteIntensity;
+        // Smoothly transition to the target values
+        chromaticAberration.intensity.value = Mathf.Lerp(chromaticAberration.intensity.value, targetChromaticAberrationIntensity, Time.deltaTime * transitionSpeed);
+        vignette.intensity.value = Mathf.Lerp(vignette.intensity.value, targetVignetteIntensity, Time.deltaTime * transitionSpeed);
     }
 }
