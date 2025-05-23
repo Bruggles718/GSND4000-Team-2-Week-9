@@ -45,6 +45,8 @@ GameObject:
   - component: {fileID: 4122977374856083467}
   - component: {fileID: 4389813313572581581}
   - component: {fileID: 1691005938519536497}
+  - component: {fileID: 6400874757032967449}
+  - component: {fileID: -7484700244760037126}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Drop
@@ -239,3 +241,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6400874757032967449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8527999447897494225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324a15989877436a861bd398ad569655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7484700244760037126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8527999447897494225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da57800110fd423681b87299d829e80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
