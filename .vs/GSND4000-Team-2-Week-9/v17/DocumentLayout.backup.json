@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\US Work n Study\\Engine Projects\\Unity\\Game Mechanics Class\\GSND4000-Team-2-Week-9\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\US Work n Study\\Engine Projects\\Unity\\Game Mechanics Class\\GSND4000-Team-2-Week-9\\Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Variables\\VariableDeclarations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Variables\\VariableDeclarations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\US Work n Study\\Engine Projects\\Unity\\Game Mechanics Class\\GSND4000-Team-2-Week-9\\Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Reflection\\Optimization\\StaticActionInvoker_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Reflection\\Optimization\\StaticActionInvoker_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +27,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VariableDeclarations.cs",
+              "DocumentMoniker": "D:\\US Work n Study\\Engine Projects\\Unity\\Game Mechanics Class\\GSND4000-Team-2-Week-9\\Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Variables\\VariableDeclarations.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Variables\\VariableDeclarations.cs",
+              "ToolTip": "D:\\US Work n Study\\Engine Projects\\Unity\\Game Mechanics Class\\GSND4000-Team-2-Week-9\\Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Variables\\VariableDeclarations.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Variables\\VariableDeclarations.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAArwEAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T04:39:16.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StaticActionInvoker_1.cs",
               "DocumentMoniker": "D:\\US Work n Study\\Engine Projects\\Unity\\Game Mechanics Class\\GSND4000-Team-2-Week-9\\Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Reflection\\Optimization\\StaticActionInvoker_1.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Reflection\\Optimization\\StaticActionInvoker_1.cs",
@@ -34,12 +55,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Serialization.cs",
               "DocumentMoniker": "D:\\US Work n Study\\Engine Projects\\Unity\\Game Mechanics Class\\GSND4000-Team-2-Week-9\\Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Serialization\\Serialization.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Serialization\\Serialization.cs",
@@ -47,8 +64,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.visualscripting\\Runtime\\VisualScripting.Core\\Serialization\\Serialization.cs",
               "ViewState": "AgIAAMUAAAAAAAAAAAAkwNEAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T17:34:08.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T17:34:08.341Z"
             }
           ]
         }
