@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8327867785810269874}
   - component: {fileID: 684792943991299026}
   - component: {fileID: 5733827670351118881}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Drops Parent
   m_TagString: Drop
   m_Icon: {fileID: 0}

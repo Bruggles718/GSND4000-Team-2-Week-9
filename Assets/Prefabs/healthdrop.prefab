@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 969924026843632780}
   - component: {fileID: -6391474843800792380}
   - component: {fileID: -2669715024840576229}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: healthdrop
-  m_TagString: Drop
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,8 +31,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.6761, y: -0.3208, z: 0}
-  m_LocalScale: {x: 0.4078, y: 0.3585, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.35, y: 0.30768758, z: 0.85826385}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -125,7 +125,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.040539145, y: 0.038428485}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -135,7 +135,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.6485584, y: 3.8436966}
   m_EdgeRadius: 0
 --- !u!114 &969924026843632780
 MonoBehaviour:
